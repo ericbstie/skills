@@ -86,7 +86,7 @@ if __name__ == "__main__":
 
 "I'll start with an easy solution I know works"
 
-```
+```py
 def twoSum(nums, target):
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
@@ -98,7 +98,7 @@ def twoSum(nums, target):
 *run tests*
 "This works because ... However, it's not optimal because ... I'm sure we can get it smaller by using X... Approach Y might be another solution, but I'll try X first."
 
-```
+```py
 def twoSum(nums, target):
     nums = sorted((num, i) for i, num in enumerate(nums))
 
@@ -120,7 +120,7 @@ def twoSum(nums, target):
 *run tests*
 "Good! However, let's try approach Y now. It might be better because ..."
 
-```
+```py
 def twoSum(nums, target):
     seen = {}
 
